@@ -1,18 +1,20 @@
+import Card from "./componenet/card/Card";
+import Header from "./componenet/header/Header";
 import data from "./helper/data";
+import "./app.css";
 
 function App() {
-  console.log(data);
   return (
-    <div>
-      <h1>Albums</h1>
-      <div>
-        {data.map((card) => {
-          return (
-            <div>
-              <img src={card.src.large} />
-              <h2>{card.photographer} </h2>
-            </div>
-          );
+    <div className="container">
+      <Header />
+      <div className="cards">
+        {data.map((item, index) => {
+          console.log(item);
+          const {
+            photographer,
+            src: { large },
+          } = item;
+          return <Card key={index} photographer={photographer} large={large} />;
         })}
       </div>
     </div>

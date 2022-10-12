@@ -1,0 +1,19 @@
+.image {
+  overflow: hidden;
+}
+
+img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+h2 {
+  font-size: 1rem;
+  color: rgb(49, 214, 247);
+  padding-bottom: 1rem;
+}
+
+img:hover {
+  transform: scale(1.25);
+}
