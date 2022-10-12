@@ -2,7 +2,7 @@
 
 
 ## Description
-Our goal in this project is to create Album web page using React.
+Our goal in this project is to create an image gallery app.
 
 ## Outcome
 
@@ -10,6 +10,6 @@ Our goal in this project is to create Album web page using React.
 
 ## Objective
 
-
+  - Build an Image Gallery App using ReactJS.
 
 <button><a href="https://muratbzc.github.io/React_Album_web_page/">Go To Web Site</a></button>
