@@ -6,7 +6,7 @@ Our goal in this project is to create an image gallery app.
 
 ## Outcome
 
-![Project 020](./album.gif)
+![Project 020](./Albums.gif)
 
 ## Objective
 
